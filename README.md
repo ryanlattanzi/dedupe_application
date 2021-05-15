@@ -1,5 +1,7 @@
 # dedupe_application
 
+Small project that performs a couple of small deduplication services.
+
 ## Instructions
 
 0. Clone this repo with Clone this repo (`git clone https://github.com/ryanlattanzi/dedupe_application {local/save/path}`).
