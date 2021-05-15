@@ -4,7 +4,7 @@ Small project that performs a couple of small deduplication services.
 
 ## Instructions
 
-0. Clone this repo with Clone this repo (`git clone https://github.com/ryanlattanzi/dedupe_application {local/save/path}`).
+0. Clone this repo (`git clone https://github.com/ryanlattanzi/dedupe_application {local/save/path}`).
 0. Open terminal and `cd` into this directory.
 0. Ensure Docker is running.
 0. Create the Docker image by running `make docker-image` in terminal.
