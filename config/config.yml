@@ -1,0 +1,5 @@
+---
+service: dedupe_single_df
+input_data:
+  - duplicates.csv
+output: dedupe.csv
