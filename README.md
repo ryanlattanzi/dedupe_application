@@ -12,7 +12,6 @@
 =======
 0. Configure `/config/config.yml`. Available services are `get_new_rows` and `dedupe_single_df`. Put only the names of the files in `input_data:` and `output:` since the application already knows what directories to look in. **NOTE**: If you are using `get_new_rows`, then you MUST list `new_data.csv` first due to application logic using left joins.
 2. Run `make run-app config='config.yml'`. This will print out some statements in the console, and you should see the output file pop up in `/outputs`.
->>>>>>> c0f175293e6e82a15e0b97b9d9734db7a5ab9131
 
 ## Explanation of Files and Directories
 
