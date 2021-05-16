@@ -8,7 +8,6 @@
 0. Create the Docker image by running `make docker-image` in terminal.
 0. If needed, alter the config files located in `/config`. There are two available services, `get_new_rows` and `dedupe_single_df`, and each one is set up with its own config file. Each has the same structure so theoretically only one config is needed, but two are included for ease of use. Put only the names of the files in `input_data:` and `output:` since the application already knows what directories to look in. *NOTE* If you are using `get_new_rows`, then you MUST list `new_data.csv` first due to application logic using left joins.
 0. Run `make run-app config='{CONFIG_FILE}.yml'`. This will print out some statements in the console, and you should see the output file pop up in `/outputs`.
-=======
 0. Configure `/config/config.yml`. Available services are `get_new_rows` and `dedupe_single_df`. Put only the names of the files in `input_data:` and `output:` since the application already knows what directories to look in. **NOTE**: If you are using `get_new_rows`, then you MUST list `new_data.csv` first due to application logic using left joins.
 2. Run `make run-app config='config.yml'`. This will print out some statements in the console, and you should see the output file pop up in `/outputs`.
 
