@@ -1,0 +1,6 @@
+---
+service: get_new_rows
+input_data:
+  - new_data.csv
+  - existing_data.csv
+output: new_rows.csv
